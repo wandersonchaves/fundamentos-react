@@ -12,11 +12,11 @@ import ConditionalComIf from "./components/ConditionalComIf";
 function App() {
   return (
     <div className="App">
-      <Card title="#06 - Conditional com If">
+      <Card title="#06 - Conditional v2">
         <ConditionalComIf numero={11}></ConditionalComIf>
       </Card>
 
-      <Card title="#05 - Conditional">
+      <Card title="#05 - Conditional v1">
         <Conditional numero={11}></Conditional>
       </Card>
 
@@ -24,11 +24,7 @@ function App() {
         <Repeticao></Repeticao>
       </Card>
 
-      <Card title="Primeiro Componente">
-        <Primeiro></Primeiro>
-      </Card>
-
-      <Card title="Com Filhos">
+      <Card title="#03 - Componente Com Filhos">
         <ComFilhos>
           <ul>
             <li>Ana</li>
@@ -39,18 +35,16 @@ function App() {
         </ComFilhos>
       </Card>
 
-      <Card title="Com Parametro">
+      <Card title="#02 - Componente Com Parametro">
         <ComParametro
           title="Esse é o título"
           subtitle="Esse é o subtitle"
         ></ComParametro>
       </Card>
 
-      <Card title="Com Parametro 02">
-        <ComParametro title="Opa" subtitle="Epa"></ComParametro>
+      <Card title="#01 - Primeiro Componente">
+        <Primeiro></Primeiro>
       </Card>
-
-      <Card title="Exercise X">Conteúdo</Card>
     </div>
   );
 }
